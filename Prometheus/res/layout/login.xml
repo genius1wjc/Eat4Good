@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
-
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -11,17 +11,18 @@
 
         <ImageView
             android:id="@+id/logo"
-            android:layout_width="120dp"
+            android:layout_width="202dp"
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
-            android:src="@android:drawable/star_big_on" />
+            android:layout_weight="0.18"
+            android:src="@drawable/logo2" />
 
         <EditText
             android:id="@+id/username"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="0dp"
             android:hint="Username"
             android:singleLine="true" >
         </EditText>
@@ -41,15 +42,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="0dp" />
 
-        <Button
-            android:id="@+id/loginButton"
+        <LinearLayout
             android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
-            android:text="Login" />
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Login" />
+            
+			<TextView
+            android:id="@+id/blankTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp" />
+			
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Register" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </ScrollView>

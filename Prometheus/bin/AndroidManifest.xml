@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="prometheus.mobilize"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="Eat4Good" >
+        <activity
+            android:name=".TestActivity"
+            android:label="This is just a page launcher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".NewsletterActivity"
+            android:label="Newsletter" />
+        <activity
+            android:name=".NewsletterDetailActivity"
+            android:label="Newsletter" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile" />
+        <activity
+            android:name=".SeasonActivity"
+            android:label="Season" />
+        <activity
+            android:name=".MouthFootprintActivity"
+            android:label="MouthFootprint" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="Food" />
+        <activity
+            android:name=".RestaurantDetailActivity"
+            android:label="Restaurant Detail" />
+    </application>
+
+</manifest>

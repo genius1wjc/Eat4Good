@@ -16,7 +16,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:scaleType="fitXY"
-            android:src="@drawable/circle" />
+            android:src="@drawable/pumpkin" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -30,7 +30,7 @@
                 android:layout_height="120dp"
                 android:layout_marginLeft="30dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/circle" />
+                android:src="@drawable/beans" />
 
             <ImageView
                 android:layout_width="0dp"
@@ -43,7 +43,7 @@
                 android:layout_height="120dp"
                 android:layout_marginRight="30dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/circle" />
+                android:src="@drawable/turnip" />
         </LinearLayout>
     </LinearLayout>
 
