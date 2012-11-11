@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="darkGreen">#006400</color>
+    <string name="spinner_1_color_prompt">Choose a color</string>
+
+</resources>
