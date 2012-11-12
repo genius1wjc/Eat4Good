@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/icon"
+                android:text="jdhfds"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/filterTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Recipe"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Button
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:text="Start" />
+
+            <ImageButton
+                android:id="@+id/listButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plussign" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="70dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="Step1:"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:text="Transfer juices and bits from roasting pan—turkey, pork, beef, lamb, chicken or roasted vegetables—to a bowl." />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="Step2:"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/row2TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:text="If bits are stuck, place the pan over medium-low heat and deglaze by adding a splash" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Step3:"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/row3TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:text="Set bowl aside for a few minutes, and then skim fat from top and discard." />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

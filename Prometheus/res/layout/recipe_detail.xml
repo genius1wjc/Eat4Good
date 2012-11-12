@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/icon"
+                android:text="jdhfds"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/filterTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Recipe Detail"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/listButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plussign" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/newsImageView"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.25"
+            android:scaleType="fitXY"
+            android:src="@drawable/recipe3" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="1/4 cup pan drippings, 2 tablespoons unsalted butter, 1/4 cup all-purpose flour, 2 cups 365 Everyday Value Organic Chicken Broth, Beef Broth or Vegetable Broth, divided, Fine sea salt to taste, Freshly ground black pepper to taste
+1/4 cup pan drippings
+2 tablespoons unsalted butter
+1/4 cup all-purpose flour
+2 cups 365 Everyday Value Organic Chicken Broth, Beef Broth or Vegetable Broth, divided
+Fine sea salt to taste
+Freshly ground black pepper to taste" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Get it from restaurants" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Get ingredients from markets" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Cook it myself" />
+    </LinearLayout>
+
+</ScrollView>

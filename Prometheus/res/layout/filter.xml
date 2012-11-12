@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/icon"
+                android:text="jdhfds"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/filterTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Filter"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/listButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plussign" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Filter Results by" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="0.3 miles" />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20 miles" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <SeekBar
+                android:id="@+id/seek"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:max="20"
+                android:progress="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="  " >
+            </TextView>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Any" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Filter Results by" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Price" >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radioPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/RadioButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="$" >
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="$$" >
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/RadioButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="$$$" >
+            </TextView>
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="$$$$" >
+            </TextView>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Any" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="When do you go" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="1 am" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="11 pm" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <SeekBar
+                android:id="@+id/seek"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:max="24"
+                android:progress="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="  " />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Any" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/GoBackButton"
+            android:layout_width="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="OK" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

@@ -6,6 +6,8 @@
 
     <uses-sdk android:minSdkVersion="10" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:icon="@drawable/ic_launcher"
         android:label="Eat4Good" >
@@ -20,28 +22,67 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="Login" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".NewsletterActivity"
-            android:label="Newsletter" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".NewsletterDetailActivity"
-            android:label="Newsletter" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".ProfileActivity"
-            android:label="Profile" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".SeasonActivity"
-            android:label="Season" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".MouthFootprintActivity"
-            android:label="MouthFootprint" />
+            android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".FoodActivity"
-            android:label="Food" />
+            android:name=".EatenFoodActivity"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".RestaurantDetailActivity"
-            android:label="Restaurant Detail" />
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SearchResultsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".RecipeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".StepActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MapActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FilterActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".CheckedInActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FavoriteActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FarmDetailActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SearchRestaurantsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FoodDetailActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MarketDetailActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SearchFoodsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SearchMarketsActivity"
+            android:windowSoftInputMode="stateHidden" />
     </application>
 
 </manifest>

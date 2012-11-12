@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
-            android:text="News" />
+            android:text="Newsletter" />
 
         <Button
             android:id="@+id/button3"
@@ -64,6 +64,54 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:text="Newsletter Detail" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Search Results" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Recipe" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Step" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="SearchResults" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Map" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Filter" />
     </LinearLayout>
 
 </ScrollView>

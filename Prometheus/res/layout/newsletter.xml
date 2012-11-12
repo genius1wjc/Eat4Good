@@ -16,8 +16,9 @@
             <ImageView
                 android:layout_width="41dp"
                 android:layout_height="41dp"
-                android:src="@drawable/list_icon"
-                android:text="jdhfds" />
+                android:src="@drawable/icon"
+                android:text="jdhfds"
+                android:visibility="visible" />
 
             <TextView
                 android:id="@+id/filterTest1"
@@ -27,7 +28,9 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:singleLine="true"
-                android:text="Newsletter" >
+                android:text="Newsletter"
+                android:textSize="25sp"
+                android:textStyle="bold" >
             </TextView>
 
             <ImageButton
@@ -36,17 +39,17 @@
                 android:layout_height="41dp"
                 android:padding="0dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/list_icon" />
+                android:src="@drawable/plussign" />
         </LinearLayout>
 
         <ImageView
             android:id="@+id/newsImageView"
-            android:layout_width="220dp"
-            android:layout_height="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
             android:scaleType="fitXY"
-            android:src="@drawable/profile" />
+            android:src="@drawable/event1" />
 
         <TableLayout
             android:layout_width="fill_parent"
@@ -61,17 +64,19 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
+                    android:id="@+id/imageView"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/news" />
+                    android:src="@drawable/event2" />
 
                 <TextView
                     android:id="@+id/row1TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
                     android:gravity="center_horizontal"
-                    android:text="aaaaaaaa" />
+                    android:text="Farmer's Take on Farm to School: Is it Getting Easier? A QA with Tim Smith of Vesterfield Farms" />
             </TableRow>
 
             <TableRow
@@ -81,15 +86,16 @@
                 <ImageView
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/news" />
+                    android:src="@drawable/event3" />
 
                 <TextView
                     android:id="@+id/row2TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
                     android:gravity="center_horizontal"
-                    android:text="aaaaaaaa" />
+                    android:text="Mead Maker Looks to Localize Libations" />
             </TableRow>
 
             <TableRow
@@ -99,15 +105,111 @@
                 <ImageView
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/news" />
+                    android:src="@drawable/event4" />
 
                 <TextView
                     android:id="@+id/row3TextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
                     android:gravity="center_horizontal"
-                    android:text="aaaaaaaa" />
+                    android:text="Cutting Through Consumer Confusion - Misleading Labels and Ways to Find" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/event5" />
+
+                <TextView
+                    android:id="@+id/row4TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Shifting to a Smarter Food System" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/event6" />
+
+                <TextView
+                    android:id="@+id/row5TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Climate Change in Georiga - Our Food Future" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/event7" />
+
+                <TextView
+                    android:id="@+id/row6TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Strengthening a Community's Roots; English Ave. Community Garden" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/event8" />
+
+                <TextView
+                    android:id="@+id/row7TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Pioneers: Teri Hamlin and Allison Goodman" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/event9" />
+
+                <TextView
+                    android:id="@+id/row8TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Confessions of a Crop Mobber" />
             </TableRow>
         </TableLayout>
     </LinearLayout>

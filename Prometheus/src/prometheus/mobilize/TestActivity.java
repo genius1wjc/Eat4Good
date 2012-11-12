@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 public class TestActivity extends Activity {
@@ -11,6 +12,7 @@ public class TestActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
+	this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 	setContentView(R.layout.test);
 
 	Button button1 = (Button) findViewById(R.id.button1);
@@ -60,11 +62,59 @@ public class TestActivity extends Activity {
 		TestActivity.this.startActivity(myIntent);
 	    }
 	});
-	
+
 	Button button7 = (Button) findViewById(R.id.button7);
 	button7.setOnClickListener(new View.OnClickListener() {
 	    public void onClick(View v) {
 		Intent myIntent = new Intent(TestActivity.this, NewsletterDetailActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button8 = (Button) findViewById(R.id.button8);
+	button8.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, SearchRestaurantsActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button9 = (Button) findViewById(R.id.button9);
+	button9.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, RecipeActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button10 = (Button) findViewById(R.id.button10);
+	button10.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, StepActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button11 = (Button) findViewById(R.id.button11);
+	button11.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, SearchRestaurantsActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button12 = (Button) findViewById(R.id.button12);
+	button12.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, MapActivity.class);
+		TestActivity.this.startActivity(myIntent);
+	    }
+	});
+
+	Button button13 = (Button) findViewById(R.id.button13);
+	button13.setOnClickListener(new View.OnClickListener() {
+	    public void onClick(View v) {
+		Intent myIntent = new Intent(TestActivity.this, FilterActivity.class);
 		TestActivity.this.startActivity(myIntent);
 	    }
 	});

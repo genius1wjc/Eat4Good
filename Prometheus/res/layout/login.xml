@@ -2,12 +2,49 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/white" >
+    android:background="@drawable/bg2" >
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="50dp" >
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/logo2"
+                android:text="jdhfds"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/filterTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Log In"
+                android:visibility="invisible" >
+
+            </TextView>
+
+            <ImageButton
+                android:id="@+id/listButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/list_icon"
+                android:visibility="invisible" />
+
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/logo"
@@ -56,15 +93,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="Login" />
-            
-			<TextView
-            android:id="@+id/blankTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="0dp" />
-			
+
+            <TextView
+                android:id="@+id/blankTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1" />
+
             <Button
                 android:id="@+id/registerButton"
                 android:layout_width="91dp"
@@ -72,7 +109,6 @@
                 android:layout_marginTop="30dp"
                 android:text="Register" />
         </LinearLayout>
-
     </LinearLayout>
 
 </ScrollView>

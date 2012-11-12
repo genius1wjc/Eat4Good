@@ -18,20 +18,31 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" >
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="jdhfds" />
+                <ImageView
+                    android:layout_width="41dp"
+                    android:layout_height="41dp"
+                    android:src="@drawable/icon"
+                    android:text="jdhfds"
+                    android:visibility="visible" />
 
-                <EditText
+                <TextView
                     android:id="@+id/filterTest1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:hint="What to search?"
-                    android:singleLine="true" >
-                </EditText>
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="Season Recipes"
+                    android:textSize="20sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="List" />
 
                 <ImageButton
                     android:id="@+id/listButton"
@@ -39,7 +50,7 @@
                     android:layout_height="41dp"
                     android:padding="0dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/list_icon" />
+                    android:src="@drawable/plussign" />
             </LinearLayout>
 
             <TableLayout
@@ -47,7 +58,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:stretchColumns="0,1" >
 
                 <TableRow
@@ -58,12 +69,12 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/pic1" />
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/eggplant" />
                 </TableRow>
 
                 <TableRow
@@ -74,12 +85,12 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/pumpkin" />
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/recipe3" />
                 </TableRow>
 
                 <TableRow
@@ -90,12 +101,12 @@
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/pic2" />
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:src="@drawable/news" />
+                        android:src="@drawable/restuarant5" />
                 </TableRow>
             </TableLayout>
         </LinearLayout>
@@ -113,7 +124,6 @@
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/red"
                 android:orientation="horizontal" >
 
                 <Button

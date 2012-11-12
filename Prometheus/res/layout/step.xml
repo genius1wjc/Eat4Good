@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:src="@drawable/icon"
+                android:text="jdhfds"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.13"
+                android:padding="0dp"
+                android:text="Previous" />
+
+            <TextView
+                android:id="@+id/filterTest1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Step X"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="0dp"
+                android:text="Next" />
+
+            <ImageButton
+                android:id="@+id/listButton"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/plussign" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/newsImageView"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111" >
+        </TextView>
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Time:     Minutes" >
+        </TextView>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Start" />
+    </LinearLayout>
+
+</ScrollView>
